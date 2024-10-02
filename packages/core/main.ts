@@ -1,3 +1,5 @@
-export const coreMethod = () => {
-    console.log('hello, from core');
-}
+export * from 'api';
+
+export * from 'legacy';
+
+export * from 'utils';
